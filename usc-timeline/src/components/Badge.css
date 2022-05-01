@@ -1,0 +1,21 @@
+.badge-container {
+  text-align: center;
+}
+
+.badge {
+  height: 70px;
+  width: 70px;
+  border: 5px solid white;
+  border-radius: 50%;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+.badge-name {
+  text-align: center;
+  margin: 0 !important;
+}

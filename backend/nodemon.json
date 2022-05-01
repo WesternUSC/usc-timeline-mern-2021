@@ -1,0 +1,12 @@
+{
+  "env": {
+    "BUCKETEER_AWS_ACCESS_KEY_ID": "AKIARVGPJVYVEDZMCLHT",
+    "BUCKETEER_AWS_REGION": "us-east-1",
+    "BUCKETEER_AWS_SECRET_ACCESS_KEY": "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",
+    "BUCKETEER_BUCKET_NAME": "bucketeer-0a91f650-1de1-449d-8a57-3b04ff13fafc",
+    "DB_USER": "developer",
+    "DB_PASSWORD": "Eq36MTb7qiT4WpCt",
+    "DB_NAME": "events",
+    "JWT_KEY": "uw3F68o_secret_key"
+  }
+}

@@ -1,0 +1,37 @@
+table,
+td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+.users-card {
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.users-list {
+  width: 100%;
+}
+
+.users-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4f2683;
+  border-color: #4f2683;
+  color: white;
+}
+
+.users-list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.users-list tr:hover {
+  background-color: #ddd;
+}

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap");
+body {
+  background: #fafafa;
+
+  font-size: 16px;
+  color: #000;
+}
+
+.title {
+  font-size: 3em;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h3 {
+  padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.vertical-timeline-element-title {
+  font-weight: bold !important;
+}
+
+.date {
+  color: rgb(0, 0, 0);
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+  padding-right: 5px;
+  font-weight: lighter !important;
+  overflow: auto;
+  display: block;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.schoolButton {
+  background-color: #4f2683;
+}
+
+.schoolButton:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+  color: #4f2683;
+  border: 2px solid #4f2683;
+}
+
+.cultureButton {
+  background-color: #e98c49;
+}
+
+.cultureButton:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+  color: #e97f34;
+  border: 2px solid #e97f34;
+}
+
+.statsButton {
+  background-color: #54e690;
+}
+
+.statsButton:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+  color: #32c971;
+  border: 2px solid #32c971;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: black;
+    margin-top: 1.5em;
+  }
+}
+
+.read-more {
+  color: rgb(52, 52, 250);
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.show-less:hover {
+  text-decoration: underline;
+}
